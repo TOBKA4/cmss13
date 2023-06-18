@@ -893,7 +893,7 @@
 /datum/ammo/bullet/rifle/explosive
 	name = "explosive rifle bullet"
 
-	damage = 25
+	damage = 20
 	accurate_range = 22
 	accuracy = 0
 	shell_speed = AMMO_SPEED_TIER_4
@@ -960,7 +960,7 @@
 	name = "high-explosive armor-piercing rifle bullet"
 
 	headshot_state = HEADSHOT_OVERLAY_HEAVY
-	damage = 55//big damage, doesn't actually blow up because thats stupid.
+	damage = 40//big damage, doesn't actually blow up because thats stupid.
 	penetration = ARMOR_PENETRATION_TIER_8
 
 /datum/ammo/bullet/rifle/rubber
